@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu May  4 12:19:59 2023
+# Process ID: 13392
+# Current directory: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/LabprojectTask03
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10952 C:\Users\aa05432\Downloads\CAProject (2)\CAProject\LabprojectTask03\LabprojectTask03.xpr
+# Log file: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/LabprojectTask03/vivado.log
+# Journal file: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/LabprojectTask03\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/aa05432/Downloads/CAProject (2)/CAProject/LabprojectTask03/LabprojectTask03.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/aa05432/Downloads/CAProject (2)/CAProject/LabprojectTask03/tb_behav.wcfg}
+source tb.tcl

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="976940fs"></ZoomStartTime>
+      <ZoomEndTime time="1004621fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="240"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="75" />
+   <wave_markers>
+      <marker time="0" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/PC_Out" type="array">
+      <obj_property name="ElementShortName">PC_Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/PC_4" type="array">
+      <obj_property name="ElementShortName">PC_4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_4[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/PC_offset" type="array">
+      <obj_property name="ElementShortName">PC_offset[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_offset[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/PC_offset_EXMEM" type="array">
+      <obj_property name="ElementShortName">PC_offset_EXMEM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_offset_EXMEM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/PC_to_Mux" type="array">
+      <obj_property name="ElementShortName">PC_to_Mux[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_to_Mux[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/PC_In" type="array">
+      <obj_property name="ElementShortName">PC_In[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_In[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/PC_IFID" type="array">
+      <obj_property name="ElementShortName">PC_IFID[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_IFID[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/PC_IDEX" type="array">
+      <obj_property name="ElementShortName">PC_IDEX[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_IDEX[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Instruction_IFID" type="array">
+      <obj_property name="ElementShortName">Instruction_IFID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_IFID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Op_Code" type="array">
+      <obj_property name="ElementShortName">Op_Code[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_Code[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/rs1_IDEX" type="array">
+      <obj_property name="ElementShortName">rs1_IDEX[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_IDEX[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/rs2_IDEX" type="array">
+      <obj_property name="ElementShortName">rs2_IDEX[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_IDEX[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/rd_IDEX" type="array">
+      <obj_property name="ElementShortName">rd_IDEX[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_IDEX[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/rd_EXMEM" type="array">
+      <obj_property name="ElementShortName">rd_EXMEM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_EXMEM[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/rd_MEMWB" type="array">
+      <obj_property name="ElementShortName">rd_MEMWB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_MEMWB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/funct7" type="array">
+      <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Branch_EXMEM" type="logic">
+      <obj_property name="ElementShortName">Branch_EXMEM</obj_property>
+      <obj_property name="ObjectShortName">Branch_EXMEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Branch_IDEX" type="logic">
+      <obj_property name="ElementShortName">Branch_IDEX</obj_property>
+      <obj_property name="ObjectShortName">Branch_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemRead_EXMEM" type="logic">
+      <obj_property name="ElementShortName">MemRead_EXMEM</obj_property>
+      <obj_property name="ObjectShortName">MemRead_EXMEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemRead_IDEX" type="logic">
+      <obj_property name="ElementShortName">MemRead_IDEX</obj_property>
+      <obj_property name="ObjectShortName">MemRead_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemtoReg_EXMEM" type="logic">
+      <obj_property name="ElementShortName">MemtoReg_EXMEM</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_EXMEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemtoReg_MEMWB" type="logic">
+      <obj_property name="ElementShortName">MemtoReg_MEMWB</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_MEMWB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemtoReg_IDEX" type="logic">
+      <obj_property name="ElementShortName">MemtoReg_IDEX</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ALUOp_IDEX" type="array">
+      <obj_property name="ElementShortName">ALUOp_IDEX[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp_IDEX[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemWrite_EXMEM" type="logic">
+      <obj_property name="ElementShortName">MemWrite_EXMEM</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_EXMEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/MemWrite_IDEX" type="logic">
+      <obj_property name="ElementShortName">MemWrite_IDEX</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ALUSrc_IDEX" type="logic">
+      <obj_property name="ElementShortName">ALUSrc_IDEX</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ALU_Mux" type="array">
+      <obj_property name="ElementShortName">ALU_Mux[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Mux[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/RegWrite_IDEX" type="logic">
+      <obj_property name="ElementShortName">RegWrite_IDEX</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/RegWrite_EXMEM" type="logic">
+      <obj_property name="ElementShortName">RegWrite_EXMEM</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_EXMEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/RegWrite_MEMWB" type="logic">
+      <obj_property name="ElementShortName">RegWrite_MEMWB</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_MEMWB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Zero_EXMEM" type="logic">
+      <obj_property name="ElementShortName">Zero_EXMEM</obj_property>
+      <obj_property name="ObjectShortName">Zero_EXMEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/read_data1_IDEX" type="array">
+      <obj_property name="ElementShortName">read_data1_IDEX[63:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1_IDEX[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/read_data2_IDEX" type="array">
+      <obj_property name="ElementShortName">read_data2_IDEX[63:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2_IDEX[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/read_data2_EXMEM" type="array">
+      <obj_property name="ElementShortName">read_data2_EXMEM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2_EXMEM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/WriteData_EXMEM" type="array">
+      <obj_property name="ElementShortName">WriteData_EXMEM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData_EXMEM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ALU_Result" type="array">
+      <obj_property name="ElementShortName">ALU_Result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ForwardAresult" type="array">
+      <obj_property name="ElementShortName">ForwardAresult[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAresult[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ForwardBresult" type="array">
+      <obj_property name="ElementShortName">ForwardBresult[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardBresult[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ALU_Result_EXMEM" type="array">
+      <obj_property name="ElementShortName">ALU_Result_EXMEM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Result_EXMEM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ALU_Result_MEMWB" type="array">
+      <obj_property name="ElementShortName">ALU_Result_MEMWB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Result_MEMWB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Operation" type="array">
+      <obj_property name="ElementShortName">Operation[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Operation[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/imm_data" type="array">
+      <obj_property name="ElementShortName">imm_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/imm_data_IDEX" type="array">
+      <obj_property name="ElementShortName">imm_data_IDEX[63:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_data_IDEX[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Read_Data" type="array">
+      <obj_property name="ElementShortName">Read_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Read_Data_MEMWB" type="array">
+      <obj_property name="ElementShortName">Read_Data_MEMWB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data_MEMWB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Funct" type="array">
+      <obj_property name="ElementShortName">Funct[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Funct[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Funct_IDEX" type="array">
+      <obj_property name="ElementShortName">Funct_IDEX[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Funct_IDEX[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Hazard_IF_ID_Write" type="logic">
+      <obj_property name="ElementShortName">Hazard_IF_ID_Write</obj_property>
+      <obj_property name="ObjectShortName">Hazard_IF_ID_Write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Hazard_PC_Write" type="logic">
+      <obj_property name="ElementShortName">Hazard_PC_Write</obj_property>
+      <obj_property name="ObjectShortName">Hazard_PC_Write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/finally/Hazard_MUX_Control" type="logic">
+      <obj_property name="ElementShortName">Hazard_MUX_Control</obj_property>
+      <obj_property name="ObjectShortName">Hazard_MUX_Control</obj_property>
+   </wvobject>
+</wave_config>

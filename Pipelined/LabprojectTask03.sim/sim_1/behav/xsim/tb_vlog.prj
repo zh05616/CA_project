@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LabprojectTask03.srcs/sources_1/new/ALU.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/ALU_Control.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Adder.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Control_Unit.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Data_Memory.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Detect_Hazards.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/EX_MEM.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Forwarding_Unit.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/ID_EX.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/IF_ID.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Imm_Gen.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/MEM_WB.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Mux.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Mux2.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Parser.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Program_Counter.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/RISC_V_Processor.v" \
+"../../../../LabprojectTask03.srcs/sources_1/new/Register_File.v" \
+"../../../../LabprojectTask03.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
