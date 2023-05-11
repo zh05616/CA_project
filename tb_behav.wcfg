@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1195200fs"></ZoomStartTime>
+      <ZoomEndTime time="1200966fs"></ZoomEndTime>
+      <Cursor1Time time="1195985fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="160"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/Mem_Addr" type="array">
+      <obj_property name="ElementShortName">Mem_Addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_Addr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/Write_Data" type="array">
+      <obj_property name="ElementShortName">Write_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/memWrite" type="logic">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/memRead" type="logic">
+      <obj_property name="ElementShortName">memRead</obj_property>
+      <obj_property name="ObjectShortName">memRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/Read_Data" type="array">
+      <obj_property name="ElementShortName">Read_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/element1" type="array">
+      <obj_property name="ElementShortName">element1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">element1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/element2" type="array">
+      <obj_property name="ElementShortName">element2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">element2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/element3" type="array">
+      <obj_property name="ElementShortName">element3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">element3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/element4" type="array">
+      <obj_property name="ElementShortName">element4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">element4[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/dataMem" type="array">
+      <obj_property name="ElementShortName">dataMem[63:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataMem[63:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RISC/DM/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu May  4 12:08:48 2023
+# Process ID: 14904
+# Current directory: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7844 C:\Users\aa05432\Downloads\CAProject (2)\CAProject\Labproject\Labproject.xpr
+# Log file: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/vivado.log
+# Journal file: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/HAMZA IRFAN/OneDrive/Desktop/CAProject/Labproject' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.430 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 2
+[Thu May  4 12:46:01 2023] Launched synth_1...
+Run output will be captured here: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/synth_1/runme.log
+[Thu May  4 12:46:01 2023] Launched impl_1...
+Run output will be captured here: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/impl_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_Processor
+INFO: [VRFC 10-311] analyzing module Adder_64_bit
+INFO: [VRFC 10-311] analyzing module Program_Counter
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-311] analyzing module Instruction_Parser
+INFO: [VRFC 10-311] analyzing module registerFile
+INFO: [VRFC 10-311] analyzing module ALU_64_bit
+INFO: [VRFC 10-311] analyzing module Immediate_Data_Generator
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-311] analyzing module ALU_Control
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.sim/sim_1/behav/xsim'
+"xelab -wto 952f765926b940a0b5138ebf0e83ccf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 952f765926b940a0b5138ebf0e83ccf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 62 for port 'Inst_Address' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:100]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_Counter
+Compiling module xil_defaultlib.Adder_64_bit
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_Parser
+Compiling module xil_defaultlib.registerFile
+Compiling module xil_defaultlib.Immediate_Data_Generator
+Compiling module xil_defaultlib.ALU_64_bit
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.ALU_Control
+Compiling module xil_defaultlib.RISC_V_Processor
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1018.430 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled

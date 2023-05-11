@@ -1,0 +1,265 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu May  4 12:46:06 2023
+# Process ID: 15684
+# Current directory: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/synth_1
+# Command line: vivado.exe -log RISC_V_Processor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISC_V_Processor.tcl
+# Log file: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/synth_1/RISC_V_Processor.vds
+# Journal file: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RISC_V_Processor.tcl -notrace
+Command: synth_design -top RISC_V_Processor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8444
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RISC_V_Processor' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Program_Counter' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:204]
+INFO: [Synth 8-6155] done synthesizing module 'Program_Counter' (1#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:204]
+INFO: [Synth 8-6157] synthesizing module 'Adder_64_bit' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:190]
+INFO: [Synth 8-6155] done synthesizing module 'Adder_64_bit' (2#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:190]
+INFO: [Synth 8-6157] synthesizing module 'MUX' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:844]
+INFO: [Synth 8-6155] done synthesizing module 'MUX' (3#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:844]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Memory' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:229]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Memory' (4#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:229]
+WARNING: [Synth 8-689] width (64) of port connection 'Inst_Address' does not match port width (62) of module 'Instruction_Memory' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:100]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Parser' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:357]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Parser' (5#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:357]
+INFO: [Synth 8-6157] synthesizing module 'registerFile' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:379]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:429]
+INFO: [Synth 8-6155] done synthesizing module 'registerFile' (6#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:379]
+INFO: [Synth 8-6157] synthesizing module 'Immediate_Data_Generator' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:553]
+INFO: [Synth 8-6155] done synthesizing module 'Immediate_Data_Generator' (7#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:553]
+INFO: [Synth 8-6157] synthesizing module 'ALU_64_bit' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:453]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:463]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_64_bit' (8#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:453]
+INFO: [Synth 8-6157] synthesizing module 'Data_Memory' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:576]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Memory' (9#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:576]
+WARNING: [Synth 8-7071] port 'element1' of module 'Data_Memory' is unconnected for instance 'DM' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:151]
+WARNING: [Synth 8-7071] port 'element2' of module 'Data_Memory' is unconnected for instance 'DM' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:151]
+WARNING: [Synth 8-7071] port 'element3' of module 'Data_Memory' is unconnected for instance 'DM' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:151]
+WARNING: [Synth 8-7071] port 'element4' of module 'Data_Memory' is unconnected for instance 'DM' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:151]
+WARNING: [Synth 8-7023] instance 'DM' of module 'Data_Memory' has 10 connections declared, but only 6 given [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:151]
+INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:714]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:737]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (10#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:714]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Control' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:798]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:811]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:821]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Control' (11#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:798]
+INFO: [Synth 8-6155] done synthesizing module 'RISC_V_Processor' (12#1) [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'PC_Out_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:224]
+WARNING: [Synth 8-327] inferring latch for variable 'readData1_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:439]
+WARNING: [Synth 8-327] inferring latch for variable 'readData2_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:440]
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:466]
+WARNING: [Synth 8-327] inferring latch for variable 'Zero_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:469]
+WARNING: [Synth 8-327] inferring latch for variable 'Read_Data_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:679]
+WARNING: [Synth 8-327] inferring latch for variable 'Branch_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:745]
+WARNING: [Synth 8-327] inferring latch for variable 'MemRead_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:743]
+WARNING: [Synth 8-327] inferring latch for variable 'MemtoReg_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:741]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:746]
+WARNING: [Synth 8-327] inferring latch for variable 'MemWrite_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:744]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrc_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:740]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWrite_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:742]
+WARNING: [Synth 8-327] inferring latch for variable 'Operation_reg' [C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.srcs/sources_1/new/RISC_V_Processor.v:808]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 3     
+	   3 Input   64 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 3     
++---Registers : 
+	                8 Bit    Registers := 64    
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 5     
+	   7 Input   64 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   4 Input   12 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 132   
+	   8 Input    8 Bit        Muxes := 43    
+	   4 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 2     
+	   7 Input    8 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 44    
+	   4 Input    2 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 64    
+	   2 Input    1 Bit        Muxes := 198   
+	   7 Input    1 Bit        Muxes := 63    
+	   3 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 7     
+	   5 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:31 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++-------------------+------------+---------------+----------------+
+|Module Name        | RTL Object | Depth x Width | Implemented As | 
++-------------------+------------+---------------+----------------+
+|Instruction_Memory | p_0_out    | 128x8         | LUT            | 
+|Instruction_Memory | p_0_out    | 128x8         | LUT            | 
+|Instruction_Memory | p_0_out    | 128x8         | LUT            | 
+|Instruction_Memory | p_0_out    | 128x8         | LUT            | 
+|RISC_V_Processor   | p_0_out    | 128x8         | LUT            | 
+|RISC_V_Processor   | p_0_out    | 128x8         | LUT            | 
+|RISC_V_Processor   | p_0_out    | 128x8         | LUT            | 
+|RISC_V_Processor   | p_0_out    | 128x8         | LUT            | 
++-------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:31 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:31 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 1026.543 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1026.543 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1026.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1026.543 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/synth_1/RISC_V_Processor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RISC_V_Processor_utilization_synth.rpt -pb RISC_V_Processor_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu May  4 12:46:56 2023...

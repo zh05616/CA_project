@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu May  4 12:47:05 2023
+# Process ID: 15324
+# Current directory: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/impl_1
+# Command line: vivado.exe -log RISC_V_Processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RISC_V_Processor.tcl -notrace
+# Log file: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/impl_1/RISC_V_Processor.vdi
+# Journal file: C:/Users/aa05432/Downloads/CAProject (2)/CAProject/Labproject/Labproject.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RISC_V_Processor.tcl -notrace

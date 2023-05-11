@@ -1,0 +1,55 @@
+# Initialize i to 0
+addi x22, x0, 0 # i
+# Initialize j to 0
+addi x23, x0, 0 # j
+# Initialize offset for i to 0
+addi x24, x0, 0 # Offset-i
+# Initialize offset for j to 0
+addi x25, x0, 0 # Offset-j
+# Initialize temp variable to 0
+addi x5, x0, 0 # temp
+# Initialize temp-a[i] to 0
+addi x6, x0, 0 # temp-a[i]
+# Initialize temp-a[j] to 0
+addi x7, x0, 0 # temp-a[j]
+# Initialize counter to 4
+addi x26, x0, 4 # counter
+
+# First loop label
+FOR1:
+    # Second loop label
+    FOR2:
+        # Load the contents of a[i] into x6
+        lw x6, 15(x24) # store the contents of a[i]
+        # Load the contents of a[j] into x7
+        lw x7, 15(x25) # store the contents of a[j]
+        # If a[i] is less than a[j], branch to CONDITION
+        blt x6, x7, CONDITION # if a[i] < a[j] go to condition
+    # If a[i] is greater than or equal to a[j], increment j and go back to FOR2
+    A:
+        addi x25, x25, 8 # increase Offset-j by 4
+        addi x23, x23, 1 # increase j by 1
+        bne x23, x26, FOR2
+        addi x23, x0, 0
+        addi x25, x0, 0
+    # Increment i and go back to FOR1
+    addi x22, x22, 1 # increment i by 1
+    addi x24, x24, 8 # increment by 4
+    bne x22, x26, FOR1
+
+# Exit label
+beq x0, x0, EXIT
+
+# CONDITION label
+CONDITION:
+    # Copy the contents of a[i] into the temp variable
+    addi x5, x6, 0 # temp = a[i]
+    # Store the contents of a[j] into a[i]
+    sw x7, 15(x24) # a[i] = a[j]
+    # Store the contents of the temp variable into a[j]
+    sw x5, 15(x25) # a[j] = temp
+    # Go back to loop A
+    beq x0, x0, A
+
+# Exit loop
+EXIT:
